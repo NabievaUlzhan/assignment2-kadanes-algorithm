@@ -3,7 +3,9 @@ package algorithms;
 import metrics.PerformanceTracker;
 
 public final class Kadane {
-    private Kadane() {}
+    private Kadane() {
+
+    }
 
     public static final class Result {
         public final int maxSum, start, end;
